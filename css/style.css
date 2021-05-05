@@ -6,4 +6,5 @@ section{
 
 .nav-item{
     margin: .7em;
+    cursor: pointer;
 }
