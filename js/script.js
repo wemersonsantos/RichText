@@ -1,10 +1,10 @@
 const bottomMenu = document.querySelectorAll(".nav-item");
-const text = document.designMode;
-document.designMode = 'on';
+formatar.document.designMode = "on";
+
 
 bottomMenu.forEach(bottom => {
     bottom.addEventListener('click', e =>{
-        console.log("dalle");
+        formatar.document.execCommand("bold", false, null);
     });
 });
 
