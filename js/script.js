@@ -2,10 +2,16 @@ const buttonMenu = document.querySelectorAll(".buttonElements");
 format.document.designMode = "on"; //Faz com que o ducomento possa ser editado.
 
 buttonMenu.forEach(button => {
+    let fB = true;
     button.addEventListener('click', e =>{
         switch (button.dataset.cod){ //O DataSet do button
             case "formatBlock":
-            format.document.execCommand("formatBlock", false, 'h1');//Os efeitos para serem aplicados
+            if(fB){
+                format.document.execCommand("formatBlock", false, 'h1');
+            }else if(!fB){
+                format.document.execCommand("undo", false, null);//Os efeitos para serem aplicados    
+            }
+            fB = !fB;
             break;
             case "bold":
             format.document.execCommand("bold", false, null);
