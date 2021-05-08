@@ -1,2 +1,7 @@
-# RichText
-Projeto de um editor Rich Text, utilizando HTML5, CSS3, Bootstrap5 e JavaScript ES6.
+# Programando 😵
+
+_Projetando para por em prática os conhecimentos_
+
+1. Apenas um pequeno gafanhoto tentando se tornar um mestre 🦗
+2. Utilizando HTML5, CSS3, JavaScript, Bootstrap 4 ✍️
+3. Aberto a sugestões 🖖
